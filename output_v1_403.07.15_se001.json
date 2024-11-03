@@ -1,0 +1,33 @@
+{
+  "experiment_name": "pandaset",
+  "method_name": "neurad",
+  "checkpoint": "outputs/pandaset/neurad/2024-10-05_145325/nerfstudio_models/step-000020000.ckpt",
+  "results": {
+    "lpips": 0.2704513967037201,
+    "lpips_std": 0.10115797072649002,
+    "ray_drop_accuracy": 0.970201849937439,
+    "ray_drop_accuracy_std": 0.008485229685902596,
+    "chamfer_distance": 1.778395175933838,
+    "chamfer_distance_std": 1.9017119407653809,
+    "ssim": 0.7334587574005127,
+    "ssim_std": 0.11387331038713455,
+    "depth_mean_rel_l2": 0.021036120131611824,
+    "depth_mean_rel_l2_std": 0.010042805224657059,
+    "psnr": 26.246723175048828,
+    "psnr_std": 3.3445394039154053,
+    "num_rays_per_sec": 6006066.5,
+    "num_rays_per_sec_std": 230571.359375,
+    "fps": 3.042431116104126,
+    "fps_std": 0.33770230412483215,
+    "depth_median_l2": 0.005558927543461323,
+    "depth_median_l2_std": 0.0027521715965121984,
+    "intensity_rmse": 0.067969411611557,
+    "intensity_rmse_std": 0.0117134228348732,
+    "lane_shift_0_fid": 38.88930892944336,
+    "lane_shift_2_fid": 60.194740295410156,
+    "lane_shift_3_fid": 76.40251922607422,
+    "vertical_shift_1_fid": 74.59390258789062,
+    "actor_shift_rot_fid": 45.25171661376953,
+    "actor_shift_trans_fid": 45.214134216308594
+  }
+}

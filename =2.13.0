@@ -1,0 +1,86 @@
+Collecting tensorboard
+  Using cached tensorboard-2.17.1-py3-none-any.whl.metadata (1.6 kB)
+Collecting absl-py>=0.4 (from tensorboard)
+  Using cached absl_py-2.1.0-py3-none-any.whl.metadata (2.3 kB)
+Collecting grpcio>=1.48.2 (from tensorboard)
+  Using cached grpcio-1.66.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (3.9 kB)
+Collecting markdown>=2.6.8 (from tensorboard)
+  Using cached Markdown-3.7-py3-none-any.whl.metadata (7.0 kB)
+Collecting numpy>=1.12.0 (from tensorboard)
+  Using cached numpy-2.1.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (60 kB)
+Collecting packaging (from tensorboard)
+  Using cached packaging-24.1-py3-none-any.whl.metadata (3.2 kB)
+Collecting protobuf!=4.24.0,>=3.19.6 (from tensorboard)
+  Downloading protobuf-5.28.1-cp38-abi3-manylinux2014_x86_64.whl.metadata (592 bytes)
+Collecting setuptools>=41.0.0 (from tensorboard)
+  Using cached setuptools-75.1.0-py3-none-any.whl.metadata (6.9 kB)
+Collecting six>1.9 (from tensorboard)
+  Using cached six-1.16.0-py2.py3-none-any.whl.metadata (1.8 kB)
+Collecting tensorboard-data-server<0.8.0,>=0.7.0 (from tensorboard)
+  Using cached tensorboard_data_server-0.7.2-py3-none-manylinux_2_31_x86_64.whl.metadata (1.1 kB)
+Collecting werkzeug>=1.0.1 (from tensorboard)
+  Using cached werkzeug-3.0.4-py3-none-any.whl.metadata (3.7 kB)
+Collecting MarkupSafe>=2.1.1 (from werkzeug>=1.0.1->tensorboard)
+  Using cached MarkupSafe-2.1.5-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (3.0 kB)
+Using cached tensorboard-2.17.1-py3-none-any.whl (5.5 MB)
+Using cached absl_py-2.1.0-py3-none-any.whl (133 kB)
+Using cached grpcio-1.66.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (5.7 MB)
+Using cached Markdown-3.7-py3-none-any.whl (106 kB)
+Using cached numpy-2.1.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (16.3 MB)
+Downloading protobuf-5.28.1-cp38-abi3-manylinux2014_x86_64.whl (316 kB)
+Using cached setuptools-75.1.0-py3-none-any.whl (1.2 MB)
+Using cached six-1.16.0-py2.py3-none-any.whl (11 kB)
+Using cached tensorboard_data_server-0.7.2-py3-none-manylinux_2_31_x86_64.whl (6.6 MB)
+Using cached werkzeug-3.0.4-py3-none-any.whl (227 kB)
+Using cached packaging-24.1-py3-none-any.whl (53 kB)
+Using cached MarkupSafe-2.1.5-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (25 kB)
+Installing collected packages: tensorboard-data-server, six, setuptools, protobuf, packaging, numpy, MarkupSafe, markdown, grpcio, absl-py, werkzeug, tensorboard
+  Attempting uninstall: tensorboard-data-server
+    Found existing installation: tensorboard-data-server 0.6.1
+    Uninstalling tensorboard-data-server-0.6.1:
+      Successfully uninstalled tensorboard-data-server-0.6.1
+  Attempting uninstall: six
+    Found existing installation: six 1.16.0
+    Uninstalling six-1.16.0:
+      Successfully uninstalled six-1.16.0
+  Attempting uninstall: setuptools
+    Found existing installation: setuptools 67.6.0
+    Uninstalling setuptools-67.6.0:
+      Successfully uninstalled setuptools-67.6.0
+  Attempting uninstall: protobuf
+    Found existing installation: protobuf 3.19.6
+    Uninstalling protobuf-3.19.6:
+      Successfully uninstalled protobuf-3.19.6
+  Attempting uninstall: packaging
+    Found existing installation: packaging 24.1
+    Uninstalling packaging-24.1:
+      Successfully uninstalled packaging-24.1
+  Attempting uninstall: numpy
+    Found existing installation: numpy 1.21.5
+    Uninstalling numpy-1.21.5:
+      Successfully uninstalled numpy-1.21.5
+  Attempting uninstall: MarkupSafe
+    Found existing installation: MarkupSafe 2.1.5
+    Uninstalling MarkupSafe-2.1.5:
+      Successfully uninstalled MarkupSafe-2.1.5
+  Attempting uninstall: markdown
+    Found existing installation: Markdown 3.7
+    Uninstalling Markdown-3.7:
+      Successfully uninstalled Markdown-3.7
+  Attempting uninstall: grpcio
+    Found existing installation: grpcio 1.66.1
+    Uninstalling grpcio-1.66.1:
+      Successfully uninstalled grpcio-1.66.1
+  Attempting uninstall: absl-py
+    Found existing installation: absl-py 1.4.0
+    Uninstalling absl-py-1.4.0:
+      Successfully uninstalled absl-py-1.4.0
+  Attempting uninstall: werkzeug
+    Found existing installation: Werkzeug 3.0.4
+    Uninstalling Werkzeug-3.0.4:
+      Successfully uninstalled Werkzeug-3.0.4
+  Attempting uninstall: tensorboard
+    Found existing installation: tensorboard 2.11.2
+    Uninstalling tensorboard-2.11.2:
+      Successfully uninstalled tensorboard-2.11.2
+Successfully installed MarkupSafe-2.1.5 absl-py-2.1.0 grpcio-1.66.1 markdown-3.7 numpy-2.1.1 packaging-24.1 protobuf-5.28.1 setuptools-75.1.0 six-1.16.0 tensorboard-2.17.1 tensorboard-data-server-0.7.2 werkzeug-3.0.4
